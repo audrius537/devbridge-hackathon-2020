@@ -53,13 +53,15 @@ public class MainTests extends BaseTest {
 
         cmd = "aaaaddddddddvvvvd";
         sendKeys(cmd);
+
+        robot.keyPress(KeyEvent.VK_SPACE);
     }
 
     @SneakyThrows
     public void sendKeys(String cmds) {
         for (char c : cmds.toCharArray()) {
             sendKey(c);
-            Thread.sleep(500);
+            Thread.sleep(100);
         }
     }
 
