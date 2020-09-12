@@ -55,6 +55,6 @@ public class MainTests extends BaseTest {
         mainPage.submitButton.click();
 
         Thread.sleep(5000);
-        takeScreenshot(driver, "target/congratulationScreenshot.png");
+        takeScreenshot(driver, "congratulationScreenshot.png");
     }
 }
