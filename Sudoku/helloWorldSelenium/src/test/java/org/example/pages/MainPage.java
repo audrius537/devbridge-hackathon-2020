@@ -13,12 +13,6 @@ public class MainPage extends Base {
     @FindBy(how = How.CSS, using = "frameset frame")
     public WebElement mainFrame;
 
-    @FindBy(how = How.ID, using = "clips")
-    public WebElement clipCount;
-
-    @FindBy(how = How.CSS, using = "table#puzzle_grid tr td input")
-    public WebElement inputField;
-
     @FindBy(how = How.CSS, using = "input[name='submit']")
     public WebElement submitButton;
 
